@@ -1,0 +1,22 @@
+{
+  "name": "jetty/heart",
+  "description": "A poetic Composer package that brings Jetty into your life.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "MyLife\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "extra": {
+    "love": "eternal",
+    "jetty": "irreplaceable"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php bootstrap.php"
+    ]
+  }
+}
